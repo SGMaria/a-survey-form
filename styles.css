@@ -1,0 +1,75 @@
+
+body {
+  background-color: #13274F;
+}
+label, p, h1, h2{
+  color: #F5F5F5;
+}
+h1 {
+  text-align: center;
+  font-family: Serif;
+}
+
+.sub-title{
+  text-align: center;
+  margin-top: -10px;
+}
+
+p, label, input, select, textarea {
+  font-family: Times;
+  font-size: 20px;
+}
+
+form {
+  margin: auto;
+  width: 85%;
+  padding: 25px;
+  background-color: rgba(0,0,20,0.5);
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+fieldset {
+  padding: 10px 10px 15px 15px;
+  border: none;
+}
+
+.contact-info {
+  display: block;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+div {
+  margin-top: 10px;
+}
+
+select[name="form-trouble"] {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.optional {
+  font-size: 16px;
+}
+
+.space {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+input[id="submit"] {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #F5F5F5;
+  border-radius: 25px;
+}
